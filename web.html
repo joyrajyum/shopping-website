@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+           
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        .navbar{
+            height: 10vh;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100vw;
+          
+        }
+        .searchbar{
+           height: 50px;
+        
+          
+        }
+        .searchbar input{
+            height: 48px;
+            width: 70vw;
+            border: 2px black solid;
+            border-radius: 10px;
+            background-color: gray;
+            text-align: center;
+        }
+        .searchbar input:hover{
+            border: 2px rgb(255, 162, 0) solid;
+        }
+        .search-logo{
+          height: 50px;
+          width: 35px;
+          border: 2px black solid;
+          border-radius: 7px;
+          background-color: gray;
+          display: grid;
+          place-items: center;
+        }
+        .in-up{
+            margin-left: 30px;
+            display: flex;
+            gap: 10px;
+        }
+        .sign-up{
+            height: 50px;
+           width: 70px;
+           background-color: orange;
+           border-radius: 10px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .sign-in{
+            height: 50px;
+           width: 70px;
+           background-color: orange;
+           border-radius: 10px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        
+        .hero{
+            color: white;
+            margin-left: 70px;
+            margin-top: 80px;
+        }
+        span{
+            color:rgb(255, 162, 0) ;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .feedbacks{
+            width: 30vw;
+            display: flex;
+            gap: 60px;
+            font-size: larger;
+        }
+
+        .our-brands{
+            height: 70px;
+            width: 100vw;
+            background: linear-gradient(to right, rgb(10, 10, 10),rgb(144, 142, 142));
+            display: grid;
+            place-items: center;
+            
+        }
+        .brand-logo{
+            height: 180px;
+            width: 100vw;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+        }
+        .brand-logo .apple{
+            height: 143px;
+            width: 143px;
+            background-image: url(apple.png);
+            background-size: cover;
+
+        }
+        .brand-logo .samsung{
+            height: 143px;
+            width: 250px;
+            background-image: url(samsung.png);
+            background-size: cover;
+        }
+        .brand-logo .vivo{
+            height: 143px;
+            width: 160px;
+            background-image: url(vivo.png);
+            background-size: cover;
+        }
+        .product-image{
+            height: 400px;
+            width: 100vw;
+            background: linear-gradient(to right,rgb(88, 88, 88),rgb(27, 26, 26));
+        }
+        .product-image .display{
+            margin-left: 70px;
+            margin-bottom: 15px;
+          
+          align-items: center;
+        }
+        .product-image .display-phone{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .product-image .phone{
+            height: 345px;
+            width: 245px;
+            background-color: gray;
+            border-radius: 10px;
+        }
+        .sugestion{
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction: column; 
+        }
+        .about{
+            height: 750px;
+            width: 100vw;
+            background-color: rgb(4, 20, 20);
+        }
+        .about1{
+            display: grid;
+            place-self: center;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .developers{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .names{
+            display: flex;
+            gap: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="searchbar">
+               <input class="search" type="text" placeholder="search for products...">
+            </div>
+            <div class="search-logo">
+                    <i class='bx bxs-search' style='color:wheat'  ></i>
+            </div>
+           <div class="in-up">
+                <div class="sign-up">
+                <a href="#">Sign up</a>
+                </div>
+                <div class="sign-in">
+                <a href="#">Sign in</a>
+                </div>
+            </div>
+         </div>
+    </header>
+
+    <main>
+
+    <div class="hero">
+
+        <div class="content">
+          
+            <div class="Name"><h1>The <span>INFINITE</span><br>Goods</h1><br><h3>Dial up you Dreams</h3> <br><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque <br> aliquam exercitationem sed, repellendus.Neque labore id <br> hic maiores? Vel officiis sint iusto recusandae! Iure temporibus  <br>sint nemo labore?</p></div>
+            
+            <div class="company-logo"><img src="brand.png" alt="img"></div>
+            
+        </div>
+
+        <div class="feedbacks">
+            <div class="ratings"><p><span>Ratings</span><br><br>4.5</p></div>
+            <div class="sales"><p><span>Sales</span><br><br>20000+</p></div>
+            <div class="customers"><p><span>Customers</span><br><br>2000+</p></div>
+        </div>
+        <br>
+        <br><br><br>
+    </div>
+
+    <div class="product">
+        <div class="our-brands"><h2>Our Brands</h2></div>
+        <div class="brand-logo">
+            <div class="apple">
+                <!-- <img src="apple.png" alt="apple"> -->
+            </div>
+            <div class="samsung">
+                <!-- <img src="samsung.png" alt="samsung"> -->
+            </div>
+            <div class="vivo">
+                <!-- <img src="vivo.png" alt="vivo"> -->
+            </div>
+        </div>
+        <div class="product-image">
+            <div class="display">
+                <h2>Top selling phones</h2>
+            </div>
+            <div class="display-phone">
+                <div class="phone"></div>
+                <div class="phone"></div>
+                <div class="phone"></div>
+                <div class="phone"></div>
+            </div>
+        </div>
+        <div class="sugestion">
+            <h4>Suggest Your Thoughts</h4> 
+            <div class="thoughts">
+                <input type="text" placeholder="Enter your thoughts"><input class="submit" type="submit" placeholder="Submit">
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="about">
+        <div class="about1">
+            <h2>About</h2>
+        </div>
+            <br><br><br><br>
+
+            <div class="info">
+                <p>Code To Destiny is start up company founded by Thomas Okram Lorem ipsum dolor <br>sit amet consectetur adipisicing elit. Hic minima quis <br>explicabo aperiam sequi! Laudantium ratione id sint ad <br>vitae veritatis, iste eius eligendi officiis. Rem SEYFPJHljJAgEMsjy <br>SctPZAybkk098F0hTDGyVvim4dLcfA2P2Z0zOOKl0YMN <br>4II8NonWGqelBisHQr3ualNST9IbG9v <br>YMC7xEQEREBERAREQEREDmvl7xWfSpW autem expedita non?</p>
+            
+                <br><br><br>
+                <h3>Mentor</h3>
+                <p>.Thomas Okram</p>
+                <br>
+                <h3>Project Managers</h3>
+                <p>.Salam Priyansu Meitei</p>
+                <p>.Ludi Thongam</p>
+            </div>
+            <br><br><br>
+        <div class="developers">
+            <h3>Developers</h3><br>
+            <div class="names">
+                <div class="left">
+                <p>
+                joyraj yumnam <br>
+                joyraj yumnam <br>
+                joyraj yumnam <br>
+                joyraj yumnam <br>
+                </p>
+                
+                </div>
+                <div class="right">
+                    <p>
+                        joyraj yumnam <br>
+                        joyraj yumnam <br>
+                        joyraj yumnam <br>
+                        joyraj yumnam <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+</body>
+</html>
